@@ -5,3 +5,11 @@
 img {
     width: 200px;
 }
+
+li {
+    list-style: none;
+}
+ .bg-cv {
+    background-color: #ffff;
+ }
+
