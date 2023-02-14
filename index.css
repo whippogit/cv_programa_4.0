@@ -1,4 +1,4 @@
-*, .bodyColor{
+*, .bg-wh{
     background-color: #f4f4f4;
 }
 
@@ -11,5 +11,9 @@ li {
 }
  .bg-cv {
     background-color: #ffff;
+ }
+
+ .redes {
+    width: 30px;
  }
 
