@@ -13,85 +13,182 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <script src="https://kit.fontawesome.com/153489bdfc.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/153489bdfc.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
-  
+
   <body class="bg-wh">
-    <header class="bg-dark">
-        <nav class="bg-dark">
-            <h1 class="container bg-dark text-white p-3">Curriculum Programa 4.0<img class="programa bg-dark m-2" src="img/ar-prog_logo.png" alt="programa 4.0"></h1>
-            
-        </nav>
+    <header class="gradiente">
+      <nav class="fondo-transparente">
+        <h1 class="container fondo-transparente p-3">
+          Curriculum Programa 4.0<img
+            class="programa fondo-transparente m-2"
+            src="img/arg-programa copia.png"
+            alt="programa 4.0"
+          />
+        </h1>
+      </nav>
     </header>
-    
-      <div class="container bg-cv border border-dark rounded mt-5 mb-5 shadow-lg bg-body rounded">
-        <div class="row">
-          <div class="col">
-            <div class="row">
-              <div class="col bg-cv">
-                <img
-                  src="img/kisspng-computer-icons-avatar-user-profile-5ae456d6430e61.5541699515249138782747.png"
-                  alt="imágen de perfil"
-                  class="bg-cv p-2"
-                />
-              </div>
-              <div class="col bg-cv p-4">
-                <h1 class="bg-cv">Willie</h1>
-                <h1 class="bg-cv">Powell</h1>
-                <h4 class="bg-cv">Puesto Buscado</h4>
-              </div>
+    <div class="container">
+      <div class="container bg-white border">
+        <div class="container fondo-transparente">
+          <h4 class="fondo-transparente">Cambiar color</h4>
+        </div>
+        <div class="container fondo-transparente">
+          <button type="button" class="boton-yellow" id="boton-yellow">
+            Yellow
+          </button>
+          <button type="button" class="boton-blue" id="boton-blue">Blue</button>
+          <button type="button" class="boton-red" id="boton-red">Red</button>
+          <button type="button" class="boton-green" id="boton-green">
+            Green
+          </button>
+          <button type="button" class="boton-black" id="boton-black">
+            Black
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="container bg-white border mt-2">
+        <form class="bg-white">
+          <input
+            type="text"
+            class="form-control m-2 fondo-transparente"
+            placeholder="Nombre"
+            id="nombre"
+            required
+          />
+          <input
+            type="text"
+            class="form-control m-2 fondo-transparente"
+            placeholder="Apellido"
+            id="apellido"
+            required
+          />
+          <div class="fondo-transparente d-flex justify-content-center m-3">
+            <button
+              type="button"
+              id="boton-grey"
+              class="boton-grey rounded p-2"
+            >
+              Aceptar
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div
+      class="container bg-cv border border-dark rounded mt-5 mb-5 shadow-lg bg-body rounded"
+    >
+      <div class="row">
+        <div class="col">
+          <div class="row">
+            <div class="col bg-cv">
+              <img
+                src="img/kisspng-computer-icons-avatar-user-profile-5ae456d6430e61.5541699515249138782747.png"
+                alt="imágen de perfil"
+                class="bg-cv p-2"
+              />
+            </div>
+            <div class="col bg-cv p-4">
+              <h1 class="bg-cv" id="userName">Nombre</h1>
+              <h1 class="bg-cv" id="userLastName">Apellido</h1>
+              <h4 class="bg-cv">Puesto Buscado</h4>
             </div>
           </div>
-          <div class="bg-warning col rounded">
-            <ul class="bg-warning fw-bold p-5 rounded">
-                <li class="bg-warning"><i class="fa-sharp fa-solid fa-location-dot bg-warning pe-3"></i>6418 E Pecan St</li>
-              <li class="bg-warning"><i class="fa-sharp fa-solid fa-envelope bg-warning pe-3"></i>willie.powell@example.com</li>
-              <li class="bg-warning"><i class="fa-sharp fa-solid fa-phone bg-warning pe-3"></i>(290) 900-0081</li>
-            </ul>
-          </div>
         </div>
-      </header>
+        <div class="col rounded" id="color-fondo">
+          <ul class="fw-bold p-5 rounded">
+            <li>
+              <i class="fa-sharp fa-solid fa-location-dot pe-3"></i>6418 E Pecan
+              St
+            </li>
+            <li>
+              <i class="fa-sharp fa-solid fa-envelope pe-3"></i
+              >willie.powell@example.com
+            </li>
+            <li>
+              <i class="fa-sharp fa-solid fa-phone pe-3"></i>(290) 900-0081
+            </li>
+          </ul>
+        </div>
+      </div>
+
       <section class="container bg-cv">
         <div class="row m-5">
           <div class="col-5 bg-cv">
             <div class="bg-cv">
               <h3 class="bg-cv">Presentación</h3>
-              <hr>
-              <p class="bg-cv">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo illum culpa reiciendis velit, cumque nobis minus odit quos dignissimos architecto pariatur. Laborum esse earum repudiandae impedit mollitia tempore doloremque fuga quia, cupiditate facilis. Excepturi aspernatur quae asperiores aut vel laboriosam officia saepe delectus velit facilis recusandae voluptate quasi explicabo fuga voluptatibus voluptatum quidem, odio et assumenda eaque. Amet dolore asperiores optio soluta dolorem, mollitia ipsa rerum adipisci blanditiis ex laboriosam illo, porro debitis. Sit, optio voluptate iusto inventore vitae voluptatem nam voluptatum saepe, labore quia sequi, illo iure sapiente maiores ipsa alias ad adipisci? Eius vitae mollitia corrupti inventore. Rem?</p>
+              <hr />
+              <p class="bg-cv">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Explicabo illum culpa reiciendis velit, cumque nobis minus odit
+                quos dignissimos architecto pariatur. Laborum esse earum
+                repudiandae impedit mollitia tempore doloremque fuga quia,
+                cupiditate facilis. Excepturi aspernatur quae asperiores aut vel
+                laboriosam officia saepe delectus velit facilis recusandae
+                voluptate quasi explicabo fuga voluptatibus voluptatum quidem,
+                odio et assumenda eaque. Amet dolore asperiores optio soluta
+                dolorem, mollitia ipsa rerum adipisci blanditiis ex laboriosam
+                illo, porro debitis. Sit, optio voluptate iusto inventore vitae
+                voluptatem nam voluptatum saepe, labore quia sequi, illo iure
+                sapiente maiores ipsa alias ad adipisci? Eius vitae mollitia
+                corrupti inventore. Rem?
+              </p>
             </div>
             <div class="bg-cv">
               <h3 class="bg-cv">Intereses</h3>
-              <hr>
-              <p class="bg-cv">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto ipsum ipsa consectetur, ipsam nam optio necessitatibus voluptatem ratione repellendus sequi quaerat! Deleniti blanditiis nostrum libero, sequi quod iste maxime accusantium laborum obcaecati reprehenderit eaque omnis pariatur ducimus recusandae voluptate quia amet expedita, itaque possimus, impedit facere voluptatem dolorem aliquid. Quos?</p>
+              <hr />
+              <p class="bg-cv">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Architecto ipsum ipsa consectetur, ipsam nam optio
+                necessitatibus voluptatem ratione repellendus sequi quaerat!
+                Deleniti blanditiis nostrum libero, sequi quod iste maxime
+                accusantium laborum obcaecati reprehenderit eaque omnis pariatur
+                ducimus recusandae voluptate quia amet expedita, itaque
+                possimus, impedit facere voluptatem dolorem aliquid. Quos?
+              </p>
             </div>
             <div class="bg-cv">
               <h3 class="bg-cv">Idiomas</h3>
-              <hr>
+              <hr />
               <ul class="bg-cv">
-                <li class="bg-warning m-1 fw-bold">Inglés</li>
-                <li class="bg-warning m-1 fw-bold">Español</li>
-                <li class="bg-warning m-1 fw-bold">Alemán</li>
+                <li class="m-1 fw-bold">Inglés</li>
+                <li class="m-1 fw-bold">Español</li>
+                <li class="m-1 fw-bold">Alemán</li>
               </ul>
             </div>
             <div class="bg-cv">
               <h3 class="bg-cv">Habilidades</h3>
-              <hr>
+              <hr />
               <ul class="bg-cv">
-                <li class="bg-warning m-1 fw-bold">Word</li>
-                <li class="bg-warning m-1 fw-bold">Excel</li>
-                <li class="bg-warning m-1 fw-bold">Power Point</li>
+                <li class="m-1 fw-bold">Word</li>
+                <li class="m-1 fw-bold">Excel</li>
+                <li class="m-1 fw-bold">Power Point</li>
               </ul>
             </div>
           </div>
           <div class="col-7 px-5 bg-cv">
             <div class="bg-cv">
               <h3 class="bg-cv">Educación</h3>
-              <p class="bg-cv">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, amet.</p>
-              <p class="bg-cv">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae, fugit iure maiores ipsa eligendi quo?</p>
+              <p class="bg-cv">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
+                amet.
+              </p>
+              <p class="bg-cv">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Recusandae, fugit iure maiores ipsa eligendi quo?
+              </p>
             </div>
             <div class="bg-cv">
               <h3 class="bg-cv">Experiencias</h3>
-              <p class="bg-cv"><b class="bg-cv">Lorem ipsum dolor sit</b> amet consectetur adipisicing elit. Sequi, provident?</p>
+              <p class="bg-cv">
+                <b class="bg-cv">Lorem ipsum dolor sit</b> amet consectetur
+                adipisicing elit. Sequi, provident?
+              </p>
               <ul class="bg-cv">
                 <li class="bg-cv">elemento_1</li>
                 <li class="bg-cv">elemento_2</li>
@@ -100,7 +197,11 @@
             </div>
             <div class="bg-cv">
               <h6 class="bg-cv">Nombre de la Empresa</h6>
-              <p class="bg-cv"><b class="bg-cv">ipsum dolor sit amet</b> consectetur adipisicing elit. Obcaecati temporibus magnam odit unde voluptates expedita?</p>
+              <p class="bg-cv">
+                <b class="bg-cv">ipsum dolor sit amet</b> consectetur
+                adipisicing elit. Obcaecati temporibus magnam odit unde
+                voluptates expedita?
+              </p>
               <ul class="bg-cv">
                 <li class="bg-cv">elemento_1</li>
                 <li class="bg-cv">elemento_2</li>
@@ -110,7 +211,11 @@
             </div>
             <div class="bg-cv">
               <h6 class="bg-cv">Nombre de la Empresa</h6>
-              <p class="bg-cv">Lorem, ipsum dolor sit amet consectetur adipisicing elit. A amet autem pariatur. Consectetur exercitationem quod dicta quae magnam, cum sequi? Ipsum facilis impedit eligendi quaerat.</p>
+              <p class="bg-cv">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A amet
+                autem pariatur. Consectetur exercitationem quod dicta quae
+                magnam, cum sequi? Ipsum facilis impedit eligendi quaerat.
+              </p>
               <ul class="bg-cv">
                 <li class="bg-cv">elemento_1</li>
                 <li class="bg-cv">elemento_2</li>
@@ -121,16 +226,17 @@
           </div>
         </div>
       </section>
-      <div class="bg-warning p-2 m-0 rounded"></div>
+      <div class="p-2 m-0 rounded acent" id="acent"></div>
     </div>
+    <hr>
     <footer class="bg-dark text-white m-0 p-5">
-        <div class="container bg-dark">
-            <h4 class="bg-dark">Síguenos en nuestras redes</h4>
-            <img class="bg-dark redes" src="img/clipart422166.png" alt="Facebook">
-            <img class="bg-dark redes" src="img/clipart65693.png" alt="Instagram">
-            <img class="bg-dark redes" src="img/clipart363919.png" alt="Twitter">
-        </div>
+      <div class="container bg-dark">
+        <h4 class="bg-dark">Síguenos en nuestras redes</h4>
+        <img class="bg-dark redes" src="img/clipart422166.png" alt="Facebook" />
+        <img class="bg-dark redes" src="img/clipart65693.png" alt="Instagram" />
+        <img class="bg-dark redes" src="img/clipart363919.png" alt="Twitter" />
+      </div>
     </footer>
-    
+    <script src="index.js"></script>
   </body>
 </html>
